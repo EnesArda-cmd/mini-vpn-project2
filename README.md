@@ -1,4 +1,4 @@
-# mini-vpn-project2
+# mini-vpn-project
 # Mini VPN Project
 
 This project demonstrates a simple VPN setup using WireGuard on Windows with a mobile client.
