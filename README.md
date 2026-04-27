@@ -1,28 +1,41 @@
-# mini-vpn-project
-# Mini VPN Project
+# Secure Tunnel Simulation (Mini VPN)
 
-This project demonstrates a simple VPN setup using WireGuard on Windows with a mobile client.
+## 📌 Overview
+This project is a simplified VPN-like system developed in Python to simulate secure communication between a client and a server. It demonstrates the basic principles of secure data transmission, socket programming, and lightweight encryption.
 
-## Features
-- WireGuard server set up on Windows
-- Mobile client connection
-- Secure and encrypted internet communication
-- Tested real-time data transfer
+The goal of this project is to understand how data can be transferred securely over a network and how tunneling mechanisms work at a basic level.
 
-## How to Use
-1. Copy server and client configs (replace <hidden> with your keys)
-2. Activate the server on Windows
-3. Connect the client from mobile
+---
 
-🔹 What this project does
-Creates a secure communication tunnel between client and server
+## ⚙️ Features
+- Client-server architecture using Python sockets  
+- Basic encrypted communication between endpoints  
+- Simulated secure tunnel for data transfer  
+- Simple command-based messaging system  
+- Lightweight and easy-to-run implementation  
 
-🔹 Technologies
-Python
-Socket Programming
-Basic Encryption
+---
 
-🔹 What I learned
-Network communication
-Secure data transfer basics
-VPN logic fundamentals
+## 🛠️ Technologies Used
+- Python 3  
+- Socket Programming  
+- Basic Cryptography (simple encryption logic)  
+- Threading (if used for handling connections)
+
+---
+
+## 🧠 What I Learned
+- How client-server communication works at a low level  
+- Fundamentals of network sockets and data transfer  
+- Basic concepts behind VPN and secure tunneling  
+- Importance of encryption in protecting data  
+- Structuring a network-based Python project  
+
+---
+
+## 🚀 How It Works
+1. The server starts and listens for incoming connections  
+2. The client connects to the server through a socket  
+3. Messages are encrypted before being sent  
+4. Server decrypts the message and processes it  
+5. Secure communication channel is simulated between both sides  
