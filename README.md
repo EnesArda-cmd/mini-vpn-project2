@@ -1,13 +1,13 @@
 # Secure Tunnel Simulation (Mini VPN)
 
-## 📌 Overview
+##  Overview
 This project is a simplified VPN-like system developed in Python to simulate secure communication between a client and a server. It demonstrates the basic principles of secure data transmission, socket programming, and lightweight encryption.
 
 The goal of this project is to understand how data can be transferred securely over a network and how tunneling mechanisms work at a basic level.
 
 ---
 
-## ⚙️ Features
+##  Features
 - Client-server architecture using Python sockets  
 - Basic encrypted communication between endpoints  
 - Simulated secure tunnel for data transfer  
@@ -16,7 +16,7 @@ The goal of this project is to understand how data can be transferred securely o
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Python 3  
 - Socket Programming  
 - Basic Cryptography (simple encryption logic)  
@@ -24,7 +24,7 @@ The goal of this project is to understand how data can be transferred securely o
 
 ---
 
-## 🧠 What I Learned
+##  What I Learned
 - How client-server communication works at a low level  
 - Fundamentals of network sockets and data transfer  
 - Basic concepts behind VPN and secure tunneling  
@@ -33,7 +33,7 @@ The goal of this project is to understand how data can be transferred securely o
 
 ---
 
-## 🚀 How It Works
+##  How It Works
 1. The server starts and listens for incoming connections  
 2. The client connects to the server through a socket  
 3. Messages are encrypted before being sent  
